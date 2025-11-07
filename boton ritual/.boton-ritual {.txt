@@ -1,0 +1,7 @@
+.boton-ritual {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.boton-ritual:hover {
+  transform: scale(1.05);
+  background-color: #d4af37; /* dorado ceremonial */
+}
