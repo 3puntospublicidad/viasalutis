@@ -1,0 +1,18 @@
+<section id="altare-parceria" class="territorio">
+  <img src="assets/parceria-icon.png" alt="Ícono Parcería" class="icono-ritual">
+  <h2>Altare Parcería</h2>
+  <p class="frase-trilingue">
+    Parceamigo: testigo del alma, compañero del umbral.<br>
+    Parceamigo: witness of the soul, companion of the threshold.<br>
+    Parceamigo: testis animae, comes liminis.
+  </p>
+  <button onclick="activarVinculo()" class="boton-ritual">Activar vínculo</button>
+</section>
+
+<script>
+  function activarVinculo() {
+    const audio = new Audio('assets/sadudio-parceria.mp3');
+    audio.play();
+    alert("Ritual de parcería activado. Que el vínculo florezca.");
+  }
+</script>
