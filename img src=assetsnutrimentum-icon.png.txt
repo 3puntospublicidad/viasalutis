@@ -1,0 +1,1 @@
+<img src="assets/nutrimentum-icon.png" alt="Ícono Nutrimentum" class="icono-ritual">

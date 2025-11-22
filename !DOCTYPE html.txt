@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nutrimentum — Via Salutis</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="territorio">
+  <header>
+    <img src="assets/nutrimentum-icon.png" alt="Ícono Nutrimentum" class="icono-ritual">
+    <h1>Nutrimentum</h1>
+    <p class="frase-trilingue">
+      Nutrir el cuerpo es honrar el alma.<br>
+      To nourish the body is to honor the soul.<br>
+      Corpus alere est animam honorare.
+    </p>
+    <button onclick="iniciarNutrimentum()" class="boton-ritual">Iniciar Nutrimentum</button>
+  </header>
+
+  <script>
+    function iniciarNutrimentum() {
+      const audio = new Audio('assets/sadudio-nutrimentum.mp3');
+      audio.play();
+      alert("Ritual de sustento activado. Que tu cuerpo reciba con gratitud.");
+    }
+  </script>
+</body>
+</html>
