@@ -1,0 +1,4 @@
+git rm assets/oso-hormiguero(1).png
+git rm assets/oso-hormiguero copia.png
+git commit -m "Eliminar duplicados de oso hormiguero"
+git push

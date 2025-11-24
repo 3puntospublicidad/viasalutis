@@ -1,0 +1,1 @@
+<img src="assets/oso-hormiguero.png" alt="Oso Hormiguero Guardián">
