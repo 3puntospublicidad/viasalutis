@@ -2,27 +2,28 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Nutrimentum — Via Salutis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Via Salutis</title>
   <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body class="territorio">
-  <header>
-    <img src="assets/nutrimentum-icon.png" alt="Ícono Nutrimentum" class="icono-ritual">
-    <h1>Nutrimentum</h1>
-    <p class="frase-trilingue">
-      Nutrir el cuerpo es honrar el alma.<br>
-      To nourish the body is to honor the soul.<br>
-      Corpus alere est animam honorare.
-    </p>
-    <button onclick="iniciarNutrimentum()" class="boton-ritual">Iniciar Nutrimentum</button>
-  </header>
+<body>
 
-  <script>
-    function iniciarNutrimentum() {
-      const audio = new Audio('assets/sadudio-nutrimentum.mp3');
-      audio.play();
-      alert("Ritual de sustento activado. Que tu cuerpo reciba con gratitud.");
-    }
-  </script>
+  <!-- Escudo ceremonial -->
+  <div class="altar">
+    <img src="assets/escudo-via-salutis.png" alt="Escudo Via Salutis" class="escudo">
+  </div>
+
+  <!-- Frase trilingüe -->
+  <h1 class="frase">
+    El espíritu de Dios es gracia... De él... <br>
+    The spirit of God is grace... From Him... <br>
+    Spiritus Dei est gratia... Ex eo...
+  </h1>
+
+  <!-- Botón ritual de entrada -->
+  <div class="boton-ritual">
+    <a href="corpus.html" class="entrada">Entrar al Camino</a>
+  </div>
+
 </body>
 </html>
