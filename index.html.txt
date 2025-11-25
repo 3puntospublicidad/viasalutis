@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Via Salutis</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <!-- Pantalla de bienvenida -->
+  <section id="bienvenida">
+    <img src="assets/escudo-via-salutis.png" alt="Escudo Via Salutis" class="icono">
+    <h1>Via Salutis</h1>
+    <p class="frase">
+      El espíritu de Dios es gracia... De él... <br>
+      Spiritus Dei est gratia... Ex eo... <br>
+      The Spirit of God is grace... From Him...
+    </p>
+    <button onclick="location.href='corpus.html'" class="boton-ritual">
+      Entrar al Camino
+    </button>
+  </section>
+</body>
+</html>
